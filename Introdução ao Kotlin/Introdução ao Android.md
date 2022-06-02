@@ -9,3 +9,5 @@ var - valor mutavel, camelCase
 val - valor imutavel, camelCase (constante)
 
 const val - valor imutavel, SNAKE_CASE
+
+Uma variavel deve ser declarada ou com um valor base, assim o tipo inferido, ou com o tipo declarado junto da variavel
