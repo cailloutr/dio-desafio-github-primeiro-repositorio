@@ -21,3 +21,19 @@ Uma variavel deve ser declarada ou com um valor base, assim o tipo inferido, ou 
   nome = "Nome"
   
 ```
+# Operações Aritimeticas
+Expressao a + b == a.plus(b)
+a += b
+
+# Operadores Logicos
+(&&) == (expressao 1) and (expressao 2)
+(||) == (expressao 1) or (expressao 2)
+
+In - Verifica se o valor esta presente em uma lista ou faixa de valores
+Range - cria um intervalo de valores que inicia no primeiro parametro e acaba no segundo (incluso)
+
+#Funções
+fun <nomeDaFuncao>(<nome:Tipo>): TipoRetorno{ }
+
+# Funções de Ordem Superior
+Recebem outra função ou lambda por parametro
