@@ -7,3 +7,6 @@ App
         HAL/HIDL - Abstração de Hardware
           Linux Kernel
          
+         
+       
+
