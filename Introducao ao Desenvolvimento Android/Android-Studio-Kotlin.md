@@ -20,8 +20,24 @@ onCreate(), onStart(), onResume(), onPause(), onStop(), onDestroy()
 - Ciclo Visível: ocorre enquanto o usuário esta com a aplicação aberta e tem retorno visual
 - Ciclo Invisível: aplicação perde o foco, fora da visão do usuário
 
-# Gradle: is an open-source build automation tool that is designed to be flexible enough to build almost any type of software. 
+# Gradle is an open-source build automation tool that is designed to be flexible enough to build almost any type of software. 
 - Configuração e automatização de build/compilação (processos internos do Android)
 - build.gradle arquivo de consfiguração
 - Gerencia importações, tipos de build, versão, etc
 - Escrito em Groovy ou Kotlin DSL
+
+# Layout
+Jatpack compose - ui decorative (beta)
+Layout XML - padrão
+Viewbinding/databinding - arquivo de binding gerado a partir de todo o xml
+ - LinearLayout: atributos em espectativa de lista vertical ou horizontal
+ - Relative: tudo é relativo a outro item ou ao layout pai (a config do próprio elemento é prioridade ao layout pai) (permite sobreposição de elementos)
+ - Constraint Layout: Restringir os compontentes aos limites do layout ou outro componente, focado em otimização. Substitui os demais layouts
+ - FrameLayout - moldura, ideal para um único item
+
+# Interação com a UI
+
+ 
+
+# View
+Todo compontente é uma view, herda da classe View
