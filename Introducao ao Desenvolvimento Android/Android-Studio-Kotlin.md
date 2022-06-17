@@ -41,3 +41,6 @@ Viewbinding/databinding - arquivo de binding gerado a partir de todo o xml
 
 # View
 Todo compontente é uma view, herda da classe View
+
+# Debbuging e Error Handeling
+- Modo desenvolvedor: cria uma camada de teste e que proteje o celular durante cenários de teste
