@@ -45,7 +45,7 @@ Todo compontente é uma view, herda da classe View
 # Debbuging e Error Handeling
 - Modo desenvolvedor: cria uma camada de teste e que proteje o celular durante cenários de teste
 - Quando cira um projeto no android tem 2 buld types, debugging e o release (aplicação mais proximo do final): Habilitar debugging no build.gradle do modulo
-- # ADB Android Debugging Bridge
+- # ADB Android Debugging Bridge (plugin)
 - Conjunto de operações que facilita a manipulçação da aplicação no modo debugging em dispositivos físicos conectados a IDE
 - Revogar/Fornecer permissões
 
@@ -60,7 +60,7 @@ Primeiro parametro: TAG identificadora
 Segundo parametro: mensagem informativa
 
 # Erros e Exceptions
-- ANRs - Aplicação não respondendo, falta de retorno a interação do usuário, blçoqueio da UI Thread. Dialog exibido pelo SO
+- ANRs - Aplicação não respondendo, falta de retorno a interação do usuário, bloqueio da UI Thread. Dialog exibido pelo SO
 - Throwable (Superclasse) - define prerrogativas para todos error e excptions que  serão emitidos pelo código
 - Erros: cenário que pode ser evitado de maneira prévia. 
 - Exception: geralmente quebram (crash) na aplicação 
